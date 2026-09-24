@@ -1,11 +1,15 @@
 # Send plugin
 
-Create, edit, and share trackable sites with AI. Control access, capture
-leads, and understand engagement.
+Save what you're working on and pick it up in any AI. Publish it as a live
+page when you need a link.
 
-Send turns what you are working on into a hosted page at a real URL, then tells
-you who opened it, when, and for how long. This plugin bundles the hosted Send
-MCP server and a skill that teaches the agent when to reach for it.
+Send keeps your notes in your Send workspace, outside any one chat. Save
+context in Claude and pick it up in ChatGPT, Cursor or another session, or hand
+it to a teammate. When the work needs an audience, Send turns it into a hosted
+page at a real URL and tells you who opened it, when, and for how long.
+
+This plugin bundles the hosted Send MCP server and two skills that teach the
+agent when to reach for it.
 
 ## Install
 
@@ -15,7 +19,7 @@ MCP server and a skill that teaches the agent when to reach for it.
 grok plugin install send
 ```
 
-**Claude Code**
+**Claude (Cowork and Claude Code)**
 
 ```
 /plugin marketplace add send-co/send-plugin
@@ -49,10 +53,13 @@ A free Send account is enough to start. Create one at
 | Component | |
 |---|---|
 | MCP server | `.mcp.json` — the hosted Send server |
+| Skill | `saving-notes-with-send` — save context, pick it up in any AI |
 | Skill | `creating-sites-with-send` — when to publish, and the edit loop |
 
 ## What it does
 
+- **Save** notes and context to your workspace so they outlive the chat
+- **Pick up** saved work in any AI app connected to Send, or share it with your team
 - **Create** a hosted page from HTML the agent writes
 - **Edit** an existing page so the link you already shared stays good
 - **Read back** what is currently published before changing it
@@ -73,7 +80,11 @@ outward-facing at a live link.
 ## Links
 
 - [send.co](https://www.send.co)
-- [Report an issue](https://github.com/send-co/send-plugin/issues)
+- [Privacy policy](https://www.send.co/legal/privacy-policy)
+- [Terms of service](https://www.send.co/legal/terms)
+- Support: [support@send.co](mailto:support@send.co) or [open an issue](https://github.com/send-co/send-plugin/issues)
+- Privacy questions: [privacy@send.co](mailto:privacy@send.co)
+- Security reports: email [support@send.co](mailto:support@send.co), not a public issue
 
 ## License
 

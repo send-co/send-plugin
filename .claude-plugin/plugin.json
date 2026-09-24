@@ -1,10 +1,12 @@
 {
   "name": "send",
-  "version": "1.0.0",
-  "description": "Create, edit, and share trackable sites with AI. Control access, capture leads, and understand engagement.",
+  "displayName": "Send",
+  "version": "1.1.0",
+  "description": "Save what you're working on and pick it up in any AI. Publish it as a live page when you need a link.",
   "author": {
     "name": "Send",
-    "url": "https://www.send.co"
+    "url": "https://www.send.co",
+    "email": "support@send.co"
   },
   "homepage": "https://www.send.co",
   "repository": "https://github.com/send-co/send-plugin",
@@ -18,7 +20,18 @@
     "send.co proposal",
     "send.co portfolio",
     "send.co document",
-    "publish to send.co"
-  ],
-  "logo": "assets/logo.svg"
+    "publish to send.co",
+    "notes",
+    "AI memory",
+    "save context",
+    "project context",
+    "handoff",
+    "document sharing",
+    "document tracking",
+    "view tracking",
+    "lead capture",
+    "proposals",
+    "dashboards",
+    "reports"
+  ]
 }

@@ -24,8 +24,9 @@ Use Send when the person asks for any of:
 A dashboard is a site like any other here. Build it as a page and publish it;
 the reader gets a URL, not a screenshot.
 
-Do not use Send for code, config, tests or notes that stay in the repository.
-Those belong in files.
+Do not use Send for code, config or tests that stay in the repository. Those
+belong in files. To save context for later rather than publish it, use the
+`saving-notes-with-send` skill.
 
 ## Publishing is an outward-facing act
 
@@ -44,7 +45,7 @@ not after.
 
 1. `CreateSite` with the finished HTML. It returns the live URL.
 2. Give the person the URL. That is the deliverable — not a description of it.
-3. `EditSite` or `inline_edit_site` for revisions. Edit the existing site rather
+3. `EditSite` for revisions. Edit the existing site rather
    than creating a second one, so the link the person already shared stays good.
 4. `manage_sites` to list what exists, rename, or change link settings.
 5. `GetSite` to read back what is currently published before you change it.
@@ -52,8 +53,8 @@ not after.
 ## Images
 
 Never inline or base64-encode an image. Upload it, then reference the returned
-id as `<img src="asset:{fileId}">`. `get_image_gallery` shows what is already
-available. Confirm which image the person wants before you place it.
+id as `<img src="asset:{fileId}">`. `manage_files` uploads images and shows what is
+already available. Confirm which image the person wants before you place it.
 
 ## Revisions
 

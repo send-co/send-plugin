@@ -4,11 +4,12 @@
     "name": "Send",
     "url": "https://www.send.co"
   },
+  "description": "The official Send plugin: save work as notes you can pick up in any AI, and publish it as trackable pages.",
   "plugins": [
     {
       "name": "send",
       "source": "./",
-      "description": "Create, edit, and share trackable sites with AI. Control access, capture leads, and understand engagement."
+      "description": "Save what you're working on and pick it up in any AI. Publish it as a live page when you need a link."
     }
   ]
 }
